@@ -20,7 +20,7 @@ app.use(urlencodedParser);
 app.use(cors());
 
 //Modify your URL here
-var hostURL = 'https://trackdown-11.hmwdyaabwdy.repl.co';
+var hostURL = 'https://rshadd.onrender.com';
 //TOGGLE for Shorters
 var use1pt = false;
 
